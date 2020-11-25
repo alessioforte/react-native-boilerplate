@@ -16,7 +16,8 @@ const Logo = () => {
   );
 };
 
-export default ({ navigation }) => {
+export default (props: any) => {
+  const { navigation } = props;
   return (
     <View style={styles.welcome}>
       <View style={styles.body}>
